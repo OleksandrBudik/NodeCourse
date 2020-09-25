@@ -1,4 +1,3 @@
-const logOptions = ['warn', 'log', 'error', 'debug'];
 const log = (message, obj, level) => {
   console[level]('*****************************');
   console[level]('LOGGED: ', message, obj ? obj : '');

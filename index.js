@@ -2,7 +2,7 @@ const { config } = require('./modules/config');
 const { Logger } = require('./modules/logger');
 const http = require('http');
 
-const port = config.PORT
+const port = config.PORT;
 
 http.createServer((req, res) => {
   Logger.log('Hello world');
